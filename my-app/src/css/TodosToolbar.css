@@ -1,0 +1,21 @@
+/* השורה שמכילה חיפוש + סינון + מיון בעמוד המשימות */
+.todos-toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.todos-select {
+  padding: 10px 14px;
+  font-size: 16px;
+  color: #2a2342;
+  background: #ffffff;
+  border: 2px solid #ebdfcb;
+  border-radius: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.todos-select:focus {
+  border-color: #ff7a59;
+}

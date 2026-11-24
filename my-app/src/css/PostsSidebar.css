@@ -1,0 +1,98 @@
+.posts-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(42, 35, 66, 0.08);
+}
+
+/* מעבר בין "הפוסטים שלי" ל"כל הפוסטים" */
+.posts-tabs {
+  display: flex;
+  gap: 12px;
+}
+
+.posts-tab {
+  flex: 1;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #2a2342;
+  background: #ffffff;
+  border: 2px solid #2a2342;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.posts-tab.active {
+  color: #ffffff;
+  background: #20b2a6;
+  border-color: #20b2a6;
+}
+
+.posts-add-btn {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a2342;
+  background: #ff7a59;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+/* רשימת הפוסטים */
+.posts-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.posts-list-empty {
+  margin: 8px 0;
+  text-align: center;
+  color: #6b6580;
+}
+
+.post-list-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 6px;
+  font-size: 15px;
+  text-align: start;
+  color: #2a2342;
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.post-list-item:hover {
+  background: #fdf5ee;
+}
+
+.post-list-item.selected {
+  background: #fff0de;
+  border-color: #ff7a59;
+}
+
+.post-list-id {
+  flex-shrink: 0;
+  min-width: 32px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background: #2a2342;
+  border-radius: 8px;
+}
+
+.post-list-title {
+  font-weight: 700;
+}

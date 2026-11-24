@@ -1,0 +1,35 @@
+.add-todo {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(42, 35, 66, 0.08);
+}
+
+.add-todo-input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 14px;
+  font-size: 16px;
+  color: #2a2342;
+  border: 2px solid #ebdfcb;
+  border-radius: 14px;
+  outline: none;
+}
+
+.add-todo-input:focus {
+  border-color: #ff7a59;
+}
+
+.add-todo-btn {
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a2342;
+  background: #ff7a59;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}

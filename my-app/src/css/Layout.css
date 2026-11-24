@@ -1,0 +1,92 @@
+/* ===== סרגל הניווט העליון ===== */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 45px;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(42, 35, 66, 0.06);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2a2342;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-user {
+  margin-left: 16px;
+  font-size: 19px;
+  font-weight: 700;
+  color: #2a2342;
+}
+
+.nav-link {
+  padding: 10px 22px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2a2342;
+  background: none;
+  border: none;
+  border-radius: 999px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background: #fdf5ee;
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: #ffffff;
+  background: #2a2342;
+}
+
+.nav-logout {
+  margin-right: 16px;
+  padding: 10px 22px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2a2342;
+  background: #ffffff;
+  border: 2px solid #ff7a59;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.nav-logout:hover {
+  background: #fff1ec;
+}
+
+/* ===== העמוד עצמו ===== */
+.layout-main {
+  padding-bottom: 32px;
+}
+
+/* מסכים צרים */
+@media (max-width: 800px) {
+  .navbar {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .nav-link,
+  .nav-logout {
+    padding: 8px 14px;
+    font-size: 16px;
+  }
+}

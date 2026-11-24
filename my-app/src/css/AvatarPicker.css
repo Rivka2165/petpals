@@ -1,0 +1,35 @@
+/* ===== בחירת תמונת פרופיל ===== */
+.avatar-picker {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 4px;
+  margin-top: clamp(3px, 0.6vh, 6px);
+  justify-items: center;
+}
+
+.avatar-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  background: none;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.avatar-option:hover {
+  border-color: #ebdfcb;
+}
+
+/* התמונה שנבחרה - מסגרת כתומה */
+.avatar-option.selected {
+  border-color: #ff7a59;
+}
+
+/* הגודל מתכווץ לפי גובה המסך, כדי שכל הטופס ייכנס בלי גלילה */
+.avatar-option svg {
+  display: block;
+  width: clamp(30px, 4.4vh, 44px);
+  height: clamp(30px, 4.4vh, 44px);
+}

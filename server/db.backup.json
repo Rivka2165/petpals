@@ -1,0 +1,424 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "דוד לוי",
+      "username": "Bret",
+      "password": "1234",
+      "email": "david@example.com",
+      "phone": "050-0000000",
+      "city": "בני ברק",
+      "petName": "רקס",
+      "petType": "כלב",
+      "avatar": {
+        "type": "cat",
+        "bg": "#ffc65a"
+      }
+    },
+    {
+      "id": 2,
+      "name": "משה כהן",
+      "username": "Antonette",
+      "password": "1234",
+      "email": "moshe@example.com",
+      "phone": "052-1111111",
+      "city": "ירושלים",
+      "petName": "מיצי",
+      "petType": "חתול",
+      "avatar": {
+        "type": "dog",
+        "bg": "#a3e4dc"
+      }
+    },
+    {
+      "id": 3,
+      "name": "יוסי ברק",
+      "username": "Samantha",
+      "password": "1234",
+      "email": "yossi@example.com",
+      "phone": "054-2222222",
+      "city": "פתח תקווה",
+      "petName": "שוקו",
+      "petType": "ארנב",
+      "avatar": {
+        "type": "rabbit",
+        "bg": "#ffb7a3"
+      }
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "לקחת את הכלב לטיול בוקר",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "לקנות מזון לחתול",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "לקבוע חיסון שנתי",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "title": "לנקות את הכלוב של התוכי",
+      "completed": true
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "title": "לצלם תמונה לאלבום",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "title": "לגזום ציפורניים לחתול",
+      "completed": false
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "title": "להחליף חול בארגז",
+      "completed": true
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "title": "לקנות צעצוע חדש",
+      "completed": false
+    },
+    {
+      "id": 9,
+      "userId": 3,
+      "title": "לקנות חציר לארנב",
+      "completed": false
+    },
+    {
+      "id": 10,
+      "userId": 3,
+      "title": "לנקות את הכלוב",
+      "completed": true
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "הכלב שלי גילה את הים לראשונה",
+      "body": "לקחנו את רקס לחוף בפעם הראשונה. בהתחלה הוא פחד מהגלים, ואחרי עשר דקות כבר לא הצלחנו להוציא אותו מהמים."
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "החתול שלי ישן רק בקופסאות",
+      "body": "קנינו לו מיטה יקרה, והוא בוחר כל פעם מחדש בקופסת הקרטון שהמיטה הגיעה בה."
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "מה ארנבים אוהבים לאכול",
+      "body": "חציר, הרבה חציר. ירקות עליים בכמות קטנה, ופירות רק כפינוק."
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "title": "איך לגרום לחתול לאהוב את הרצועה",
+      "body": "התחלנו עם חמש דקות ביום בתוך הבית, עם חטיף קטן אחרי כל צעד. אחרי שבוע כבר יצאנו לחצר ושניהם חזרו מרוצים."
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "title": "טיפים לטיפוח פרווה בחורף",
+      "body": "סירוק יומי קצר עוזר למנוע קשרים, וגם מפחית את כמות השיער על הספה."
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "title": "הארנב שלי למד לבוא כשקוראים לו",
+      "body": "עם עלה חסה ביד וקצת סבלנות, אחרי שבועיים שוקו כבר מגיע בריצה."
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "title": "טיפים להאכלת ארנבים",
+      "body": "חשוב שיהיה חציר זמין כל הזמן ומים טריים. ירקות חדשים מכניסים בהדרגה."
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "title": "משחקים עם חתול בבית",
+      "body": "מוט עם נוצה, כדור נייר וקצת זמן פנוי. זה כל מה שצריך לחצי שעה של כיף."
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "title": "ביקור ראשון אצל הווטרינר",
+      "body": "הבאנו חטיפים ושמיכה מהבית, וזה עזר לרקס להירגע בחדר ההמתנה."
+    },
+    {
+      "id": 10,
+      "userId": 3,
+      "title": "איך לבנות לארנב פינת משחק",
+      "body": "מנהרת קרטון, כמה קופסאות ושטיח שלא מחליק. הוא לא יוצא משם."
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "title": "חתול ומזגן: מה עושים בקיץ",
+      "body": "דואגים שתמיד תהיה לו פינה מוצלת ומים קרים, ולא מכוונים את המזגן ישר עליו."
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "title": "התוכי למד מילה חדשה",
+      "body": "אחרי חודש של חזרות, התוכי אומר עכשיו \"בוקר טוב\" כל פעם שמישהו נכנס למטבח."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 4,
+      "userId": 2,
+      "name": "משה כהן",
+      "body": "גם אצלנו זה עבד, תודה על הטיפ!",
+      "avatar": {
+        "type": "dog",
+        "bg": "#a3e4dc"
+      }
+    },
+    {
+      "id": 2,
+      "postId": 4,
+      "userId": 3,
+      "name": "יוסי ברק",
+      "body": "האם זה מתאים גם לגורים?",
+      "avatar": {
+        "type": "rabbit",
+        "bg": "#ffb7a3"
+      }
+    },
+    {
+      "id": 3,
+      "postId": 4,
+      "userId": 1,
+      "name": "דוד לוי",
+      "body": "בהחלט, רק לקצר את הזמן.",
+      "avatar": {
+        "type": "cat",
+        "bg": "#ffc65a"
+      }
+    },
+    {
+      "id": 4,
+      "postId": 1,
+      "userId": 2,
+      "name": "משה כהן",
+      "body": "איזה כיף! איזה חוף זה היה?",
+      "avatar": {
+        "type": "dog",
+        "bg": "#a3e4dc"
+      }
+    },
+    {
+      "id": 5,
+      "postId": 2,
+      "userId": 1,
+      "name": "דוד לוי",
+      "body": "כל החתולים אותו דבר 😄",
+      "avatar": {
+        "type": "cat",
+        "bg": "#ffc65a"
+      }
+    },
+    {
+      "id": 6,
+      "postId": 3,
+      "userId": 1,
+      "name": "דוד לוי",
+      "body": "מידע מעולה, תודה!",
+      "avatar": {
+        "type": "cat",
+        "bg": "#ffc65a"
+      }
+    },
+    {
+      "id": 7,
+      "postId": 12,
+      "userId": 3,
+      "name": "יוסי ברק",
+      "body": "מדהים! כמה זמן לקח לו?",
+      "avatar": {
+        "type": "rabbit",
+        "bg": "#ffb7a3"
+      }
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "גורים בשנת הלידה"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "חופשה בחוף"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "ארנב בגינה"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "title": "אימוני ציות"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "title": "מיצי בבית"
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "title": "שוקו והחברים"
+    }
+  ],
+  "photos": [
+    {
+      "id": 1,
+      "albumId": 1,
+      "title": "רקס בן חודש",
+      "url": "https://picsum.photos/id/237/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/237/150/150"
+    },
+    {
+      "id": 2,
+      "albumId": 1,
+      "title": "הצעצוע הראשון",
+      "url": "https://picsum.photos/id/1025/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1025/150/150"
+    },
+    {
+      "id": 3,
+      "albumId": 1,
+      "title": "ישן על השטיח",
+      "url": "https://picsum.photos/id/1062/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1062/150/150"
+    },
+    {
+      "id": 4,
+      "albumId": 2,
+      "title": "הגעה לחוף",
+      "url": "https://picsum.photos/id/1012/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1012/150/150"
+    },
+    {
+      "id": 5,
+      "albumId": 2,
+      "title": "ריצה בחול",
+      "url": "https://picsum.photos/id/1024/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1024/150/150"
+    },
+    {
+      "id": 6,
+      "albumId": 2,
+      "title": "מנוחה בצל",
+      "url": "https://picsum.photos/id/40/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/40/150/150"
+    },
+    {
+      "id": 7,
+      "albumId": 2,
+      "title": "השקיעה",
+      "url": "https://picsum.photos/id/1011/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1011/150/150"
+    },
+    {
+      "id": 8,
+      "albumId": 2,
+      "title": "בדרך הביתה",
+      "url": "https://picsum.photos/id/1074/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1074/150/150"
+    },
+    {
+      "id": 9,
+      "albumId": 2,
+      "title": "חברים חדשים",
+      "url": "https://picsum.photos/id/169/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/169/150/150"
+    },
+    {
+      "id": 10,
+      "albumId": 2,
+      "title": "רטוב ומאושר",
+      "url": "https://picsum.photos/id/219/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/219/150/150"
+    },
+    {
+      "id": 11,
+      "albumId": 2,
+      "title": "תמונה משפחתית",
+      "url": "https://picsum.photos/id/433/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/433/150/150"
+    },
+    {
+      "id": 12,
+      "albumId": 2,
+      "title": "סוף היום",
+      "url": "https://picsum.photos/id/582/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/582/150/150"
+    },
+    {
+      "id": 13,
+      "albumId": 3,
+      "title": "שוקו על הדשא",
+      "url": "https://picsum.photos/id/1084/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1084/150/150"
+    },
+    {
+      "id": 14,
+      "albumId": 3,
+      "title": "אוכל גזר",
+      "url": "https://picsum.photos/id/659/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/659/150/150"
+    },
+    {
+      "id": 15,
+      "albumId": 4,
+      "title": "שב!",
+      "url": "https://picsum.photos/id/1020/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1020/150/150"
+    },
+    {
+      "id": 16,
+      "albumId": 4,
+      "title": "תן יד",
+      "url": "https://picsum.photos/id/593/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/593/150/150"
+    },
+    {
+      "id": 17,
+      "albumId": 5,
+      "title": "מיצי על החלון",
+      "url": "https://picsum.photos/id/1074/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1074/150/150"
+    },
+    {
+      "id": 18,
+      "albumId": 6,
+      "title": "שוקו והחתול",
+      "url": "https://picsum.photos/id/1003/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1003/150/150"
+    }
+  ]
+}

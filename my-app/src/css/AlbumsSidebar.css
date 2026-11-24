@@ -1,0 +1,85 @@
+.albums-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(42, 35, 66, 0.08);
+}
+
+/* תגית "פרטי" - האלבומים נראים רק למשתמש עצמו */
+.albums-private-badge {
+  align-self: flex-start;
+  padding: 2px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2a2342;
+  background: #ffe7a3;
+  border-radius: 999px;
+}
+
+.albums-add-btn {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a2342;
+  background: #ff7a59;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+/* רשימת האלבומים */
+.albums-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.albums-list-empty {
+  margin: 8px 0;
+  text-align: center;
+  color: #6b6580;
+}
+
+.album-list-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 6px;
+  font-size: 15px;
+  text-align: start;
+  color: #2a2342;
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.album-list-item:hover {
+  background: #fdf5ee;
+}
+
+.album-list-item.selected {
+  background: #fff0de;
+  border-color: #ff7a59;
+}
+
+.album-list-id {
+  flex-shrink: 0;
+  min-width: 32px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background: #2a2342;
+  border-radius: 8px;
+}
+
+.album-list-title {
+  font-weight: 700;
+}

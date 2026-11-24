@@ -1,0 +1,121 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 24px;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(42, 35, 66, 0.08);
+}
+
+.comments-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.comments-title {
+  margin: 0;
+  font-size: 20px;
+  color: #2a2342;
+}
+
+.comments-empty {
+  margin: 0;
+  color: #6b6580;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* תמונת פרופיל מימין + הבועה של התגובה */
+.comment-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.comment-item svg {
+  flex-shrink: 0;
+}
+
+.comment-bubble {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 14px;
+  background: #fdf5ee;
+  border-radius: 14px;
+}
+
+.comment-author {
+  font-weight: 700;
+  color: #2a2342;
+}
+
+.comment-body {
+  margin: 2px 0 0;
+  color: #2a2342;
+}
+
+.comment-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  font-size: 13px;
+  color: #6b6580;
+}
+
+/* "עריכה · מחיקה" - נראים כמו קישור קטן */
+.comment-link {
+  padding: 0;
+  font-size: 13px;
+  color: #6b6580;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.comment-link:hover {
+  color: #2a2342;
+  text-decoration: underline;
+}
+
+/* כתיבת תגובה חדשה */
+.add-comment {
+  display: flex;
+  gap: 12px;
+}
+
+.add-comment-input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 14px;
+  font-size: 16px;
+  color: #2a2342;
+  border: 2px solid #ebdfcb;
+  border-radius: 14px;
+  outline: none;
+}
+
+.add-comment-input:focus {
+  border-color: #ff7a59;
+}
+
+.add-comment-btn {
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a2342;
+  background: #ff7a59;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}

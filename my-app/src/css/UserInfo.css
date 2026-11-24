@@ -1,0 +1,26 @@
+/* ===== חלון "הפרטים שלי" ===== */
+.info-list {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f1e8dc;
+}
+
+.info-label {
+  font-size: 16px;
+  color: #6b6580;
+}
+
+.info-value {
+  font-size: 17px;
+  font-weight: 700;
+  color: #2a2342;
+  overflow-wrap: anywhere;
+}
